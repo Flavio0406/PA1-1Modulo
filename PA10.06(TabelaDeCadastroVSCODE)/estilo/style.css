@@ -1,0 +1,118 @@
+   * {
+       box-sizing: border-box;
+   }
+
+   body {
+       font-family: Arial, sans-serif;
+       margin: 0;
+       padding: 20px;
+       background: #aad7f0;
+       background: radial-gradient(circle, rgba(170, 215, 240, 1) 0%, rgba(196, 242, 241, 1) 50%, rgba(157, 225, 237, 1) 100%);
+   }
+
+   h1 {
+       margin-bottom: 20px;
+   }
+
+   .add-btn {
+       margin-bottom: 10px;
+       padding: 10px 20px;
+       font-size: 1rem;
+       border: none;
+       font-family:Verdana, Geneva, Tahoma, sans-serif;
+       background: #33bbff;
+       color: #000000;
+       border: 5px solid #5fadbb;
+       border-radius: 6px;
+       cursor: pointer;
+       transition: opacity 0.2s ease;
+   }
+
+   .add-btn:hover {
+       opacity: 0.8;
+   }
+
+   table {
+       width: 100%;
+       border-collapse: collapse;
+       background: #bce0f1;
+   }
+
+   thead {
+       background: #6adffc;
+   }
+
+   th,
+   td {
+       padding: 12px;
+       border: 1px solid #000000;
+       text-align: left;
+   }
+
+   .acao button {
+       background: none;
+       border: none;
+       cursor: pointer;
+       font-size: 1.2em;
+   }
+
+   /* Modal */
+   .modal-container {
+       position: fixed;
+       top: 0;
+       left: 0;
+       width: 100%;
+       height: 100%;
+       display: flex;
+       align-items: center;
+       justify-content: center;
+       background: rgba(135, 165, 249, 0.4);
+       visibility: hidden;
+       opacity: 0;
+       transition: visibility 0s, opacity 0.3s;
+   }
+
+   .modal-container.active {
+       visibility: visible;
+       opacity: 1;
+   }
+
+   .modal {
+       background: #d9ecf4;
+       padding: 20px;
+       border-radius: 8px;
+       min-width: 320px;
+       box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+   }
+
+   .modal h2 {
+       margin-top: 0;
+   }
+
+   .modal label {
+       display: block;
+       margin: 10px 0 5px;
+   }
+
+   .modal input {
+       width: 100%;
+       padding: 8px;
+       border: 1px solid #1c5cff;
+       border-radius: 4px;
+       
+   }
+
+   #btnSalvar {
+       margin-top: 15px;
+       padding: 10px 20px;
+       border: none;
+       background: #a3d9f5;
+       color: #000000;
+       border-radius: 6px;
+       cursor: pointer;
+       transition: opacity 0.2s ease;
+   }
+
+   #btnSalvar:hover {
+       opacity: 0.8;
+   }
